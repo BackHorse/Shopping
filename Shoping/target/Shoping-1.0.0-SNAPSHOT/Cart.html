@@ -1,0 +1,37 @@
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>购物车</title>
+</head>
+<body>
+<div align="center">
+ <h1>欢迎光临</h1>
+ <hr color="#999999">
+ <form name="Nform" method="post" action="ShowCartInf.jsp" >
+
+  <table width="80%" border="0">
+   <tr>
+    <td width="50%" height="30" align="right">请选择您要购买的书籍：</td>
+    <td width="50%" align="left">&nbsp;
+     <select name="BName">
+      <option value="Book_1" selected>Book_1</option>
+      <option value="Book_2">Book_2</option>
+      <option value="Book_3">Book_3</option>
+      <option value="Book_4">Book_4</option>
+      <option value="Book_5">Book_5</option>
+      <option value="Book_6">Book_6</option>
+     </select></td>
+   </tr>
+
+   <tr>
+    <td width="50%" height="30" align="right">购买数量：</td>
+    <td width="50%" align="left">&nbsp;
+     <input type="text" name="BNumber" value="1" size="5"></td>
+   </tr>
+  </table>
+  <p><input type="submit" name="s" value="提交">&nbsp;&nbsp;
+   <input type="reset" name="r" value="重新挑选"></p>
+ </form>
+</div>
+</body>
+</html>
